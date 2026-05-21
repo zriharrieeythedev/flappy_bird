@@ -47,15 +47,8 @@ Assets/
 
 ### Installation
 
-1. Clone the repository:
+1. apk link https://drive.google.com/file/d/1cVksUgo3oKvgNZCPKRj3GRxAlYTmiB61/view?usp=sharing
 
-```bash
-git clone https://github.com/your-username/flappybird-unity.git
-```
-
-2. Open the project in Unity Hub.
-
-3. Load the main scene from:
 
 ```plaintext
 Assets/Scenes/MainScene.unity
@@ -126,6 +119,6 @@ This project is open-source and available under the MIT License.
 
 ## 👨‍💻 Author
 
-Created by **[Your Name]**
+Created by **zriharrieeythedev**
 
-GitHub: `https://github.com/your-username`
+GitHub: `https://github.com/zriharrieeythedev`
