@@ -1,122 +1,131 @@
-🐦 Flappy Bird: My First Unity Adventure! 🚀
+# Flappy Bird Clone – Unity Project
 
-A classic, retro-style physics arcade game built from scratch using the Unity Engine.
+A simple **Flappy Bird-style game** built with the **Unity Engine** using **C#**.
+This project was created as a beginner-friendly introduction to Unity game development, covering core mechanics like player movement, collision detection, scoring, and UI management.
 
-game-development • unity-2d • c-sharp • arcade • flappy-bird • beginner-project • physics
+---
 
-🎮 Play Now • ✨ Features • 📂 Project Structure • 🔧 Setup Guide • 📈 Roadmap
+## 🎮 Features
 
-Welcome to Flappy Bird, my very first game built using the Unity Engine! This project is a modern tribute to the classic mobile game that took the world by storm. It features physics-based gameplay, procedurally spawning obstacles, and a responsive score-tracking system.
+* Bird movement with tap/space controls
+* Infinite pipe spawning system
+* Score tracking
+* Collision and game over system
+* Restart functionality
+* Simple 2D gameplay mechanics
+* Lightweight and beginner-friendly project structure
 
-🎮 Play the Game Now!
+---
 
-You can download and play the latest compiled build of the game directly from Google Drive:
+## 🛠️ Built With
 
-🚀 Download the Playable Build on Google Drive 🚀
+* **Engine:** Unity
+* **Language:** C#
 
-💡 Quick Start: Simply download the ZIP file, extract its contents to a folder, and double-click the executable to start flapping!
+---
 
-✨ Features
+## 📂 Project Structure
 
-Classic Physics Mechanics: Experience the perfect "flap" physics built on Unity's 2D Rigidbody system.
-
-Procedural Pipe Spawning: Pipes spawn endlessly at randomized heights to keep you on your toes.
-
-Real-time Score Tracking: Dodge a pipe, get a point! Watch your score climb at the top of the screen.
-
-Clean Retro UI: Simple game-over screens with a quick restart mechanism.
-
-Fully Animated Sprite: The bird animates beautifully as you flap your wings.
-
-🕹️ How to Play
-
-The rules are simple, but the challenge is real:
-
-Action
-
-Control Keys
-
-Flap/Jump
-
-Spacebar or Left Mouse Click
-
-Restart Game
-
-R (on Game Over screen)
-
-Quit Game
-
-Esc
-
-Press Spacebar or Left Click to flap your wings and defy gravity.
-
-Navigate safely through the gaps in the green pipes 🚧.
-
-Avoid hitting the pipes or falling off the screen, or it's Game Over!
-
-Try to beat your high score! 🏆
-
-📂 Project Structure
-
-This repository is organized following standard Unity layout conventions. If you are looking to explore the assets, refer to this directory map:
-
+```plaintext
 Assets/
- ├── 📁 Animations/      # Animator controller and bird flapping keyframes
- ├── 📁 Prefabs/         # Reusable game objects (e.g., Pipe obstacles)
- ├── 📁 Scenes/          # Main gameplay and Main Menu scenes
- ├── 📁 Scripts/         # All C# source scripts (Bird, Spawner, Game Manager)
- └── 📁 Sprites/         # Game artwork, backgrounds, and user interface elements
+├── Scripts/
+├── Scenes/
+├── Sprites/
+├── Prefabs/
+└── Audio/
+```
 
+---
 
-🔧 Developer Setup and Installation
+## 🚀 Getting Started
 
-Want to open this project in Unity to look under the hood or make your own changes? Follow these steps:
+### Prerequisites
 
-Prerequisites
+* Install Unity Hub
+* Unity Editor (recommended version: 2021+)
+* Visual Studio or any C# IDE
 
-Unity Hub installed.
+### Installation
 
-Unity Editor 2022.3 LTS (or newer) installed.
+1. Clone the repository:
 
-Setup Instructions
+```bash
+git clone https://github.com/your-username/flappybird-unity.git
+```
 
-Clone the repository:
+2. Open the project in Unity Hub.
 
-git clone https://github.com/your-username/flappy-bird-unity.git
+3. Load the main scene from:
 
+```plaintext
+Assets/Scenes/MainScene.unity
+```
 
-Open Unity Hub.
+4. Press **Play** in the Unity Editor.
 
-Click the Add button and select the cloned repository folder.
+---
 
-Open the project using the correct Unity Editor version.
+## 🎯 Controls
 
-Navigate to Assets/Scenes/ in the project window and double-click MainScene to begin!
+| Action     | Key                         |
+| ---------- | --------------------------- |
+| Jump / Fly | Spacebar / Left Mouse Click |
+| Restart    | R                           |
 
-🛠️ Built With
+---
 
-Game Engine: Unity (Version 2022.3 LTS)
+## 📸 Gameplay
 
-Language: C# (C-Sharp)
+Add screenshots or gameplay GIFs here.
 
-Physics Engine: Unity Rigidbody2D & BoxCollider2D
+```markdown
+![Gameplay Screenshot](screenshots/gameplay.png)
+```
 
-UI System: Unity UI Canvas & TextMeshPro
+---
 
-📈 Future Improvements & Roadmap
+## 📚 What I Learned
 
-Since this is my first Unity project, I'm planning to keep adding features as I learn more:
+* Unity 2D game development basics
+* Rigidbody2D physics
+* Collision detection
+* Prefab system
+* Scene management
+* UI and score systems
+* Writing gameplay scripts in C#
 
-[ ] Add sound effects for flapping, scoring, and crashing 🔊
+---
 
-[ ] Implement a Local High Score save system (using PlayerPrefs) 💾
+## 🔮 Future Improvements
 
-[ ] Design a main menu and skin selection screen 🎨
+* Mobile touch support
+* Sound effects and background music
+* Difficulty progression
+* Main menu and pause system
+* High score saving
+* Better animations
 
-[ ] Publish a WebGL version so it can be played directly in the browser 🌐
+---
 
-🤝 Support and Feedback
+## 🤝 Contributing
 
-If you have any feedback or suggestions, feel free to open an issue or reach out! This is a learning journey, and I’d love to hear how I can improve my game dev skills.
+Contributions, suggestions, and improvements are welcome.
 
-Happy Flapping! 🐦✨
+1. Fork the project
+2. Create a new branch
+3. Commit your changes
+4. Open a pull request
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Created by **[Your Name]**
+
+GitHub: `https://github.com/your-username`
